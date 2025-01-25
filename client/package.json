@@ -9,7 +9,7 @@
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.28.2",
     "react-scripts": "5.0.1",
-    "@jridgewell/sourcemap-codec": "^latest",
+    "@jridgewell/sourcemap-codec": "1.5.0",
     "rimraf": "^4.0.0"
   },
   "scripts": {
@@ -39,6 +39,6 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "web-vitals": "^4.2.4",
-    "@rollup/plugin-terser": "^latest"
+    "@rollup/plugin-terser": "0.4.3"
   }
 }
