@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://192.168.1.2:3000';
+const apiUrl = 'http://localhost:3000';
 
 const api = {
     register: async (name, username, password) => {
