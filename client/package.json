@@ -8,7 +8,9 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.28.2",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "@jridgewell/sourcemap-codec": "^latest",
+    "rimraf": "^4.0.0"
   },
   "scripts": {
     "start": "cross-env PORT=3001 react-scripts start" ,
@@ -36,6 +38,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "@rollup/plugin-terser": "^latest"
   }
 }
